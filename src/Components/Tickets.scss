@@ -1,0 +1,41 @@
+.back-btn{
+    margin:15px;
+}
+
+.tickets-wrapper{
+    padding: 30px;
+    text-align: center;
+    h4{
+        color:rgb(100, 98, 95)
+
+    }
+    p{
+    color:rgb(100, 98, 95)
+
+    }
+    .card-wrapper{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        .card{
+            width: 45%;
+            margin: 15px;
+            border-radius: 8px;
+            background-color: rgb(238, 241, 241);
+            .card-header{
+                font-size: 14px;
+            }
+            .card-title{
+                font-size: 14px;
+            }
+           
+                .btn.btn-secondary{
+                    width: 100px;
+                    height: 35px;
+                    font-size: 12px;
+                }
+            
+        }
+    }
+
+}

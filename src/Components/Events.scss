@@ -1,0 +1,68 @@
+.events-wrapper {
+    padding: 5px;
+
+    .sort-section {
+        text-align: center;
+        margin: 40px 20px;
+
+        select {
+            width: 180px;
+            padding: 5px;
+            border-radius: 8px;
+            background-color: rgb(247, 240, 240);
+            margin-right: 10px;
+
+            option {
+                color: black;
+            }
+        }
+
+        .reset {
+            width: 120px;
+            height: 20px;
+            font-size: 10px;
+            border-radius: 8px;
+        }
+    }
+
+    .card {
+        width: 60%;
+        padding: 20px;
+        box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.53);
+        margin: 20px auto;
+
+        .card-body {
+            border-bottom: 1px solid rgb(219, 213, 213);
+
+            .card-title {
+                font-size: 20px;
+            }
+
+            .card-text {
+                font-size: 12px;
+            }
+
+            .dates {
+                font-size: 10px;
+                font-weight: lighter;
+            }
+
+            .links {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                a {
+                    margin-right: 15px;
+                }
+
+                .no-pic-info {
+                    color: grey;
+                    font-size: 12px;
+                }
+            }
+
+
+        }
+    }
+}

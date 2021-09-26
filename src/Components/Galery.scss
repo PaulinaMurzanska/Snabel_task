@@ -1,0 +1,30 @@
+.back-btn {
+    margin: 15px;
+}
+
+.event-title {
+    margin: 30px auto;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(100, 98, 95)
+}
+
+.carousel {
+    &.slide {
+        border: 2px solid rgb(233, 226, 226);
+        border-radius: 8px;
+        padding: 5px;
+        width: 70%;
+        height: 400px;
+        margin: 80px auto;
+
+        .carousel-indicators {
+            li {
+                height: 4px;
+                color: #fff;
+
+            }
+        }
+
+    }
+}
